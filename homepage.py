@@ -10,7 +10,7 @@ st.set_page_config(page_title="Böter 22/23",
 @st.cache_data
 def get_df_from_Excel():
     df = pd.read_excel(
-        io='fines/Fine-Test-New.xlsx',
+        io='new.xlsx',
         engine='openpyxl',
         sheet_name='Ny_Master_Data',
         skiprows=1,
@@ -24,7 +24,7 @@ df = get_df_from_Excel()
 @st.cache_data
 def get_leaderboard_df():
     df_leaderboard = pd.read_excel(
-        io='fines/Fine-Test-New.xlsx',
+        io='new.xlsx',
         engine='openpyxl',
         sheet_name='Top_stats',
         skiprows=0,
