@@ -26,7 +26,7 @@ df = get_df_from_Excel()
 @st.cache_data
 def get_leaderboard_df():
     df_leaderboard = pd.read_excel(
-        io='assets/Fine-Test-New.xlsx',
+        io='Fine-Test-New.xlsx',
         engine='openpyxl',
         sheet_name='Top_stats',
         skiprows=0,
