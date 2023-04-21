@@ -458,5 +458,5 @@ if selected_page == "Indvid(er) Nivå":
         st.subheader(str(getOccurenceOfFine(df_individual, "Dum-bot", 50)) + " st")
 
     with col_4:
-        st.subheader("Huvudbonadsmåndag 🧢 🤠 🎓")
-        st.subheader(str(getOccurenceOfFine(df_individual,"Huvudbonadsmåndag", 50)) + " st")
+        st.subheader("Huvudbonad 🧢 🤠 🎓")
+        st.subheader(str(getOccurenceOfFine(df_individual,"Huvudbonadsmåndag", 50)+ getOccurenceOfFine(df_individual, "Huvudbonad vid möte/måltid",50)) + " st")
