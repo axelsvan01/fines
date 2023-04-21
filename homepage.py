@@ -265,8 +265,8 @@ if selected_page == "Lag Nivå":
         st.subheader(str(getOccurenceOfFine(df_selection,"Dum-bot", 50)) + " st")
 
     with col_4:
-        st.subheader("Casanova Sven 👩‍❤️‍💋‍👨")
-        st.subheader(str(getOccurenceOfFine(df_selection,"Hångel på klubb", 50)) + " st")
+        st.subheader("Casanova 👩‍❤️‍💋‍👨")
+        st.subheader(str(getOccurenceOfFine(df_selection,"Hångel på klubb", 50)) + " st (Sven)")
 
 # ---------------------------------------------------------------------------------------------------
 # -------------------------------- Indivudual Level Dashboard ---------------------------------------
@@ -458,5 +458,5 @@ if selected_page == "Indvid(er) Nivå":
         st.subheader(str(getOccurenceOfFine(df_individual, "Dum-bot", 50)) + " st")
 
     with col_4:
-        st.subheader("Hångel på klubb 👩‍❤️‍💋‍👨")
-        st.subheader(str(getOccurenceOfFine(df_individual,"Hångel på klubb", 50)) + " st")
+        st.subheader("Huvudbonadsmåndag 🧢 🤠 🎓")
+        st.subheader(str(getOccurenceOfFine(df_individual,"Huvudbonadsmåndag", 50)) + " st")
